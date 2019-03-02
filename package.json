@@ -1,0 +1,33 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-elements": "^1.0.0-beta8",
+    "react-navigation": "3.1.2",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "tcomb-form-native": "^0.6.20"
+  },
+  "devDependencies": {
+    "@types/expo": "^31.0.8",
+    "@types/react": "^16.7.21",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "typescript": "^3.2.4",
+    "typescript-eslint-parser": "^22.0.0"
+  },
+  "private": true
+}
